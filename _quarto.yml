@@ -1,0 +1,49 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "教你养龙虾秘籍(OpenClaw)"
+  author: "虾酱1号"
+  cover-image: cover.png
+  cover-image-alt: |
+    OpenClaw
+  favicon: cover.png
+  search: true
+  sharing: [twitter,facebook]
+  repo-url: https://github.com/erwinQiao/openclaw_book
+  
+  chapters:
+    - index.qmd
+    - intro.qmd
+    
+    - part: firstpart.qmd
+      chapters: 
+        - openclawhistory.qmd
+        - openclawdevelop.md
+        - openclawkey.qmd
+        - openclawdevp.qmd
+        
+      
+    
+    - summary.qmd
+
+
+
+format:
+  html:
+    theme:
+      - cosmo
+      - book.scss
+  pdf:
+    pdf-engine: xelatex 
+    documentclass: ctexrep
+    toc: true 
+    number-sections: true
+    include-in-header:
+      text: |
+        \usepackage[UTF8]{ctex}
+
+editor: visual
+
+

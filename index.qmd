@@ -1,0 +1,28 @@
+# Welcome {.unnumbered}
+
+欢迎来到 **OpenClaw 教你养龙虾秘籍**！这是一本专为小龙虾养殖爱好者编写的实战指南。
+
+## 本书简介
+
+在生成式人工智能从单纯的网页对话向能够执行复杂任务的Agent发展的浪潮下，很多项目都在涌现，包括被收购的**Manus**，不同于ChatGPT或Claude等依赖云端托管的**SaaS服务**，**OpenClaw**通过独特的Gateway-Node架构，将大模型的推理能力下沉至用户私有硬件，并通过标准化的协议连接至飞书、Telegram、Discord等主流即时通讯平台
+
+> SaaS: Software as a Service（软件即服务） 
+
+短短几个月，随着各大厂商下场追逐openclaw，加上FOMO情绪的推动，`小龙虾`也开始走进每一个人的生活，逐渐渗透到每一项工作中，如何使用openclaw，openclaw到底能做什么，怎么做？大家都在探索阶段，因此想把openclew用明白必须要边学习边实践边传播，这便是这本书的由来
+
+## 本书内容
+
+1. **快速入门**：安装配置，运行第一个 Agent
+2. **架构解析**：深入理解 Gateway-Node 设计理念
+3. **平台集成**：对接飞书、Telegram、Discord 实战
+4. **国内平台**：快速发展和推广
+5. **高级功能**：自定义插件、工作流编排
+6. **部署运维**：生产环境部署指南
+7. **最佳实践**：性能优化、安全防护
+
+
+## **关于作者**
+
+一个刚入坑AI的养虾人，欢迎关注`碱辑比特`，一起学习AI知识，一起玩转openclaw
+
+![](images/wechat.png){fig-alt="wechat logo" fig-align="center"}
