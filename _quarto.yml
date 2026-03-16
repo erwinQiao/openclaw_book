@@ -8,7 +8,7 @@ book:
   cover-image: cover.png
   cover-image-alt: |
     OpenClaw
-  favicon: cover.png
+  favicon: share.png
   search: true
   sharing: [twitter,facebook]
   repo-url: https://github.com/erwinQiao/openclaw_book
@@ -20,15 +20,11 @@ book:
     - part: firstpart.qmd
       chapters: 
         - openclawhistory.qmd
-        - openclawdevelop.md
         - openclawkey.qmd
-        - openclawdevp.qmd
+        - openclawdevelop.qmd
         
       
     
-    - summary.qmd
-
-
 
 format:
   html:
