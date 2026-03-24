@@ -1,2 +1,36 @@
 # 从AI Agent到OpenClaw
 
+> OpenClaw 不是“更强的 Agent”，而是“Agent 的操作系统”
+
+本章将围绕这一演进路径展开，从 AI Agent 的基本范式出发，分析其在复杂场景中的局限，并逐步引出任务系统、记忆架构与多 Agent 协作机制，最终落脚于一个更完整的系统形态：**OpenClaw**。
+
+## 什么是AI Agent
+
+
+
+
+## Agent核心能力
+
+
+
+
+## 从 Agent 到“Agent 系统”的关键跃迁
+
+
+
+
+## 记忆系统的系统化
+
+
+
+## 工具系统的演进（Tool → Capability）
+
+
+
+
+## openclaw的诞生背景
+
+
+
+
+## 行业生态与竞争格局分析

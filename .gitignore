@@ -7,3 +7,5 @@
 **/*.quarto_ipynb
 _book
 *.Rproj
+
+.DS_Store
