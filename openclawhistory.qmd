@@ -11,12 +11,32 @@ AI Agent热潮，准确来说，从2023年3月开始。
 那时候，一个叫AutoGPT框架项目发布，项目利用大型语言模型，能自动把一个大任务拆分成小任务，并使用工具完成它们。
 
 ::: callout-note
+
 AutoGPT 框架 是一个开源的自主 AI 智能体（Autonomous AI Agent）系统
 
-> 它的核心理念是：你只需给出一个目标（Goal），AI 就能自动拆解任务、规划步骤、调用工具、执行操作，并根据结果自我修正，直到完成任务，全程无需人类逐步指令
+> 它的核心理念是：你只需给出一个目标（Goal），AI 就能自动拆解任务、规划步骤、调用工具、执行操作，并根据结果自我修正，直到完成任务，**全程无需人类逐步指令**
+
+相当于AI自动完成，没有人机的交互不同于openclaw等
+
 :::
 
-"Agent"一词虽然早在*马文·明斯基*、*Russell* 和 *Norvig* 等知名学者的著作中出现，"Agent"，中文意思是代理人。代理人，你可以理解成有人帮你去做某件事。但在大模型时代，OpenAI 重新定义了这一概念。AI agent是什么？简单来说，一个由AI技术加持的代理人，它变得更聪明了，可以感知周围的环境，并且能够独立地思考和行动。 Lilian Weng 在其个人博客中对 Agent 的主要功能进行了详细描述，提供了一个更为精确的定义。她指出，狭义上的 `Agent` 具备技能调用、记忆和规划能力。
+**"Agent"**一词虽然早在*马文·明斯基*、*Russell* 和 *Norvig* 等知名学者的著作中出现，"Agent"，中文意思是代理人。
+
+代理人，你可以理解成有人帮你去做某件事。但在大模型时代，OpenAI 重新定义了这一概念。
+
+**Agent起源和发展：**
+
+- 起源：哲学启蒙，悠久的历史和人类的畅想
+
+- 从1993年到2011年，AI Agent得到了长足的发展，并且衍生出了许多令人印象深刻的项目和应用。这一时期的AI Agent技术逐步成熟，并在多个领域产生了显著影响(象棋比赛的深蓝（Deep Blue）、2011年的Siri等)
+
+- 基于`LLM`的AI Agent，AlexNet 卷积神经网络，2016年的AlphaGo,2017年谷歌提出了Transformer模型,2019年： OpenAI发布了GPT-2
+
+- 开源LLM的崛起与AutoGPT:2023年1月： 全球多个厂商发布了开源LLM，如LLaMA、BLOOM、StableLM、ChatGLM等，进一步促进了LLM在各领域的应用
+
+- 随着AutoGPT的发布，越来越多基于LLM的AI Agent项目涌现，如Generative Agent、GPTEngineer、BabyAGI、MetaGPT等，这些项目推动了LLM的技术发展，并加速了AI Agent的商业化应用
+
+AI agent是什么？简单来说，一个由AI技术加持的代理人，它变得更聪明了，可以感知周围的环境，并且能够独立地思考和行动。 Lilian Weng 在其个人博客中对 Agent 的主要功能进行了详细描述，提供了一个更为精确的定义。她指出，狭义上的 `Agent` 具备技能调用、记忆和规划能力。
 
 ![AI Agent](images/AI agent.png){fig-align="center" fig-alt="AI Agent"}
 
