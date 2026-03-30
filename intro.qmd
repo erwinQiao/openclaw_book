@@ -4,6 +4,23 @@
 
 ## OpenClaw版本更新记录
 
+**2026年3月28日**
+
+- MiniMax 加了进来，完美支持 image-01 模型的图像生成和长宽比编辑
+- 系统加入了一个叫 requireApproval 的异步拦截功能
+- 移除已废弃的 qwen-portal-auth OAuth 集成（用于 portal.qwen.ai），迁移至 Model Studio
+
+**2026年3月24日**
+
+- OpenAI API 兼容性（RAG 应用友好）
+- 工具可见性改进
+- Microsoft Teams 重大升级 
+- 技能安装体验优化：7 个核心技能添加一键安装配置
+- Control UI markdown 预览增强 
+- CLI 容器支持
+- Discord 自动线程命名
+- Node 22 兼容性放宽
+
 **2026年3月23日**
 
 - 插件系统换骨：旧API一刀切，新SDK全面接管，ClawHub成官方首选分发渠道
