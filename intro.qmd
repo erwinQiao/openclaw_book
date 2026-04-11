@@ -4,6 +4,31 @@
 
 ## OpenClaw版本更新记录
 
+**2026年4月7日**
+
+- CLI/infer: 新增 `openclaw infer` 命令，支持模型、媒体、网页和嵌入任务
+- Memory/wiki: 恢复 bundled `memory-wiki` 功能，支持结构化知识管理
+- Webhooks 插件: 新增 webhook 入口插件，支持外部自动化
+- 会话管理: 新增持久化压缩检查点和 Sessions UI 分支/恢复功能
+- Gemma 4: 支持 Google Gemma 4 模型
+- Arcee AI: 新增 bundled Arcee AI 提供商插件
+- Ollama 视觉: 自动检测 Ollama 模型的视觉能力
+
+**2026年4月5日**
+
+- 插件系统增强：新增 acpx、lossless-claw、openclaw-weixin 等插件
+- 多模型集成优化：支持 Zhipu AI 和 Ollama 本地模型
+- 安全性提升：完善的权限控制和沙箱模式
+- 性能优化：内存管理和响应速度改进
+- 配置系统改进：更灵活的配置选项
+
+**2026年4月1日**
+
+- 会话终于自带 /tasks 后台任务看板，不用记session ID查进度了
+- web_search内置SearXNG支持，不用配第三方API就能用开源搜索
+- 飞书云盘现在支持评论事件触发和操作，自动化场景又多了一块
+- 解决了之前gateway启动一段时间就卡死的致命问题，长期运行稳多了
+
 **2026年3月28日**
 
 - MiniMax 加了进来，完美支持 image-01 模型的图像生成和长宽比编辑
@@ -14,9 +39,9 @@
 
 - OpenAI API 兼容性（RAG 应用友好）
 - 工具可见性改进
-- Microsoft Teams 重大升级 
+- Microsoft Teams 重大升级
 - 技能安装体验优化：7 个核心技能添加一键安装配置
-- Control UI markdown 预览增强 
+- Control UI markdown 预览增强
 - CLI 容器支持
 - Discord 自动线程命名
 - Node 22 兼容性放宽
@@ -24,21 +49,15 @@
 **2026年3月23日**
 
 - 插件系统换骨：旧API一刀切，新SDK全面接管，ClawHub成官方首选分发渠道
-
 - 安全大修：Windows凭证泄露、环境变量注入、Unicode审批伪装，十多个漏洞一次性封堵
-
 - 模型阵营扩军：GPT-5.4默认上位，MiniMax M2.7整合，Anthropic Vertex正式接入
-
 - 体验逐帧打磨：Android深色模式、飞书交互卡片、Telegram话题自动命名、长对话压缩机制迭代
 
 **2026年3月12日**
 
 - Skill系统大扩展：新增了Skill.sh、能够跨平台使用，一个Skill可以在OpenCode，Claude Code交叉使用
-
 - MCP生态融合，Skill终将替代MCP
-
 - MoltBook被Meta收购，又一个被大厂收购的平台
-
 - 字节跳动下的扣子变成推出了中国版的MoltBook，开放注册，任何Agent都可加入
 
 ------------------------------------------------------------------------
@@ -203,4 +222,4 @@
 
 ------------------------------------------------------------------------
 
-*最后更新：2025-03-24*
+*最后更新：2025-04-08*

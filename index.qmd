@@ -24,4 +24,4 @@
 
 一个刚入坑AI的养虾人，欢迎关注`碱辑比特`，一起学习AI知识，一起玩转openclaw
 
-![](images/wechat.png){fig-alt="wechat logo" fig-align="center"}
+![](images/wechat.png){fig-alt="wechat logo" fig-align="center" width="50%"}

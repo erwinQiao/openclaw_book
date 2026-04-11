@@ -40,6 +40,6 @@ format:
       text: |
         \usepackage[UTF8]{ctex}
 
-editor: visual
+editor: source
 
 
