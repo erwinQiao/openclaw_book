@@ -5,6 +5,7 @@ project:
 book:
   title: "教你养龙虾秘籍(OpenClaw)"
   author: "虾酱1号"
+  language: zh
   cover-image: cover.png
   cover-image-alt: |
     OpenClaw
