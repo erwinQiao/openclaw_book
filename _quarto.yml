@@ -13,19 +13,35 @@ book:
   search: true
   sharing: [twitter,facebook]
   repo-url: https://github.com/erwinQiao/openclaw_book
-  
+
   chapters:
     - index.qmd
     - intro.qmd
-    
-    - part: firstpart.qmd
-      chapters: 
-        - openclawhistory.qmd
-        - openclawkey.qmd
-        - openclawdevelop.qmd
-        
-      
-    
+
+    - part: part1/index.qmd
+      chapters:
+        - part1/history.qmd
+        - part1/architecture.qmd
+        - part1/future.qmd
+
+    - part: part2/index.qmd
+      chapters:
+        - part2/deploy-local.qmd
+        - part2/deploy-cloud.qmd
+        - part2/deploy-china.qmd
+
+    - part: part3/index.qmd
+      chapters:
+        - part3/skill-system.qmd
+        - part3/model-config.qmd
+        - part3/security-cost.qmd
+        - part3/community.qmd
+
+    - part: part4/index.qmd
+      chapters:
+        - part4/cases.qmd
+
+    - summary.qmd
 
 format:
   html:
@@ -33,14 +49,12 @@ format:
       - cosmo
       - book.scss
   pdf:
-    pdf-engine: xelatex 
+    pdf-engine: xelatex
     documentclass: ctexrep
-    toc: true 
+    toc: true
     number-sections: true
     include-in-header:
       text: |
         \usepackage[UTF8]{ctex}
 
 editor: source
-
-

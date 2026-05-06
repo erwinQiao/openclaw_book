@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(quarto preview:*)",
-      "Bash(git clone:*)"
+      "Bash(git clone:*)",
+      "Bash(quarto render *)"
     ]
   }
 }

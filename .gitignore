@@ -1,11 +1,4 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-
 /.quarto/
-**/*.quarto_ipynb
 _book
-*.Rproj
-
+**/*.quarto_ipynb
 .DS_Store
