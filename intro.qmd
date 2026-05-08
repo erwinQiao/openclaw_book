@@ -4,6 +4,13 @@
 
 ## OpenClaw版本更新记录
 
+**2025年05月05-07日**  
+
+- CodeX集成
+- 配置安全，保护OpenAI配置不受CodeX路由重写影响
+- 插件发布系统
+- 集成优化
+
 **2026年5月04日**  
 
 - Google Meet/Voice Call革命性改进：通过实时Gemini语音桥接，实现paced音频流、背压感知缓冲、barge-in队列清理，让Meet参与者获得更快的语音响应
